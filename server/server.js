@@ -14,7 +14,7 @@ io.on('connection', (socket) => {
     console.log('New User connected')
 
     socket.on('disconnect', () => {
-        console.log('User was  Disconnected')
+        console.log('User was Disconnected')
     })
 })
 
